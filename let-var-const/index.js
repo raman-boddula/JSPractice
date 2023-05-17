@@ -42,7 +42,7 @@ let [xx, y, z, a, b] = arr;
 
 
 function hoist() {
-    console.log(hello); //undefined  , in skimming stage the varible stored as undefined
+    console.log(hello);//undefined  , in skimming stage the varible stored as undefined
     var hello = 'hello world'
 }
 
